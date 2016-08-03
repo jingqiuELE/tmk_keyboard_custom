@@ -136,14 +136,14 @@ NKRO_ENABLE = yes	# USB Nkey Rollover
 USB_6KRO_ENABLE = yes	# USB 6key Rollover
 #PS2_MOUSE_ENABLE = yes	# PS/2 mouse(TrackPoint) support
 #PS2_USE_BUSYWAIT = yes
-BACKLIGHT_ENABLE = yes	# Enable keyboard backlight functionality
-KEYMAP_IN_EEPROM_ENABLE = yes # Read keymap from eeprom
+#BACKLIGHT_ENABLE = yes	# Enable keyboard backlight functionality
+#KEYMAP_IN_EEPROM_ENABLE = yes # Read keymap from eeprom
 #KEYMAP_SECTION_ENABLE = yes	# Fixed address keymap for keymap editor
-SOFTPWM_LED_ENABLE = yes # Enable SoftPWM to drive backlight
-FADING_LED_ENABLE = yes # Enable fading backlight
-BREATHING_LED_ENABLE = yes # Enable breathing backlight
-LEDMAP_ENABLE = yes		# Enable LED mapping
-LEDMAP_IN_EEPROM_ENABLE = yes # Read LED mapping from eeprom
+#SOFTPWM_LED_ENABLE = yes # Enable SoftPWM to drive backlight
+#FADING_LED_ENABLE = yes # Enable fading backlight
+#BREATHING_LED_ENABLE = yes # Enable breathing backlight
+#LEDMAP_ENABLE = yes		# Enable LED mapping
+#LEDMAP_IN_EEPROM_ENABLE = yes # Read LED mapping from eeprom
 
 
 # Optimize size but this may cause error "relocation truncated to fit"
