@@ -47,12 +47,15 @@ TMK_DIR = ../../tmk_core_custom
 # Directory keyboard dependent files exist
 TARGET_DIR = .
 
+KEYMAP = spacefn2
+
 # project specific files
 SRC =	keymap_common.c \
 	matrix.c \
 	led.c \
 	backlight.c \
 	ledmap.c
+
 
 ifdef KEYMAP
     SRC := keymap_$(KEYMAP).c $(SRC)

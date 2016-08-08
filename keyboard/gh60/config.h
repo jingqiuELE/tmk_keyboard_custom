@@ -88,6 +88,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PS2_DATA_BIT	PF6
 #endif
 
+//#define DEBUG_ACTION
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
